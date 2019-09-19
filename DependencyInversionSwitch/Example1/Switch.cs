@@ -1,20 +1,5 @@
 ﻿namespace DependencyInversionSwitch.Example1
 {
-    public class Light
-    {
-        private bool isOn = false;
-
-        public void TurnOn()
-        {
-            this.isOn = true;
-        }
-
-        public void TurnOff()
-        {
-            this.isOn = false;
-        }
-    }
-
     public class Switch
     {
         private readonly Light light;
@@ -30,11 +15,11 @@
             this.isSwitched = !this.isSwitched;
             if (this.isSwitched)
             {
-                light.TurnOn();
+                this.light.TurnOn();
             }
             else
             {
-                light.TurnOff();
+                this.light.TurnOff();
             }
         }
     }
