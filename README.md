@@ -1,5 +1,5 @@
 # DependencyInversion
-Sample app which demonstrates the dependency inversion principle + dependency injection techniques
+Sample app which demonstrates the dependency inversion principle + dependency injection techniques using Autofac as DI Framework.
 
 #### Example 1
 Shows a tightly-coupled implementation of a Switch and a Lamp. Whenever Switch is used, we need to deliver an instance of Lamp. Switch cannot be tested in isolation.
