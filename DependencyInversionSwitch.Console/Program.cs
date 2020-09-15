@@ -8,7 +8,7 @@ namespace DependencyInversionSwitch.Console
         private static void Main(string[] args)
         {
             var builder = new ContainerBuilder();
-            builder.RegisterType<Application>().As<IApplication>();
+            builder.RegisterType<Application>().As<IApplication>().SingleInstance();
             builder.RegisterType<Lamp>().As<ISwitchable>();
             builder.RegisterType<Switch>().As<ISwitch>();
             var container = builder.Build();
