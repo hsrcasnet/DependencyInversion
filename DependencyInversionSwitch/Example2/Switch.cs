@@ -14,9 +14,13 @@
         {
             this.isSwitched = !this.isSwitched;
             if (this.isSwitched)
+            {
                 this.switchable.TurnOn();
+            }
             else
+            {
                 this.switchable.TurnOff();
+            }
         }
     }
 }
