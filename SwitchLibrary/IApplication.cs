@@ -1,4 +1,4 @@
-﻿namespace DependencyInversionSwitch.Console
+﻿namespace SwitchLibrary
 {
     public interface IApplication
     {

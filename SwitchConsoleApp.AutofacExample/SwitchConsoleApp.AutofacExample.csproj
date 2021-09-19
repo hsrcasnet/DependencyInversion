@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DependencyInversionSwitch\DependencyInversionSwitch.csproj" />
+    <ProjectReference Include="..\SwitchLibrary\SwitchLibrary.csproj" />
   </ItemGroup>
 
 </Project>

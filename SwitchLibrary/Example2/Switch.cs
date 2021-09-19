@@ -1,4 +1,4 @@
-﻿namespace DependencyInversionSwitch.Example2
+﻿namespace SwitchLibrary.Example2
 {
     public class Switch : ISwitch
     {

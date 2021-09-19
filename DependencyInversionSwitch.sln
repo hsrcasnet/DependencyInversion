@@ -3,14 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversionSwitch", "DependencyInversionSwitch\DependencyInversionSwitch.csproj", "{E4035863-8EE6-4E5E-A1BC-60445DF73A36}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversionSwitch.Console", "DependencyInversionSwitch.Console\DependencyInversionSwitch.Console.csproj", "{BA06823C-E4DB-41D2-92B3-89FC6BB1C37D}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9AD2C52B-D3E2-4A33-B900-0F1EF3B6EC24}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchConsoleApp.MicrosoftExample", "SwitchConsoleApp.MicrosoftExample\SwitchConsoleApp.MicrosoftExample.csproj", "{52D7DEA3-CDC9-4CAC-8748-9C3D8C9ED18F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchConsoleApp.AutofacExample", "SwitchConsoleApp.AutofacExample\SwitchConsoleApp.AutofacExample.csproj", "{9712DD67-A4D1-4895-98F1-2F01693E72DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchLibrary", "SwitchLibrary\SwitchLibrary.csproj", "{F8EA4BD7-ABEE-4B5C-AD3F-9F88CE19C4C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,14 +20,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E4035863-8EE6-4E5E-A1BC-60445DF73A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E4035863-8EE6-4E5E-A1BC-60445DF73A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E4035863-8EE6-4E5E-A1BC-60445DF73A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E4035863-8EE6-4E5E-A1BC-60445DF73A36}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BA06823C-E4DB-41D2-92B3-89FC6BB1C37D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA06823C-E4DB-41D2-92B3-89FC6BB1C37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA06823C-E4DB-41D2-92B3-89FC6BB1C37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA06823C-E4DB-41D2-92B3-89FC6BB1C37D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D7DEA3-CDC9-4CAC-8748-9C3D8C9ED18F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D7DEA3-CDC9-4CAC-8748-9C3D8C9ED18F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D7DEA3-CDC9-4CAC-8748-9C3D8C9ED18F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D7DEA3-CDC9-4CAC-8748-9C3D8C9ED18F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9712DD67-A4D1-4895-98F1-2F01693E72DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9712DD67-A4D1-4895-98F1-2F01693E72DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9712DD67-A4D1-4895-98F1-2F01693E72DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9712DD67-A4D1-4895-98F1-2F01693E72DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8EA4BD7-ABEE-4B5C-AD3F-9F88CE19C4C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8EA4BD7-ABEE-4B5C-AD3F-9F88CE19C4C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8EA4BD7-ABEE-4B5C-AD3F-9F88CE19C4C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8EA4BD7-ABEE-4B5C-AD3F-9F88CE19C4C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

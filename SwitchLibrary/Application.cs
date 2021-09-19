@@ -1,6 +1,6 @@
-﻿using DependencyInversionSwitch.Example2;
+﻿using SwitchLibrary.Example2;
 
-namespace DependencyInversionSwitch.Console
+namespace SwitchLibrary
 {
     public class Application : IApplication
     {

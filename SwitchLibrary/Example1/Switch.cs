@@ -1,13 +1,13 @@
-﻿namespace DependencyInversionSwitch.Example1
+﻿namespace SwitchLibrary.Example1
 {
     public class Switch
     {
         private readonly Light light;
         private bool isSwitched;
 
-        public Switch(Light light)
+        public Switch()
         {
-            this.light = light;
+            this.light = new Light();
         }
 
         public void Toggle()
