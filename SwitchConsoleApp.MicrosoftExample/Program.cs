@@ -4,9 +4,9 @@ using SwitchLibrary.Example2;
 
 namespace SwitchConsoleApp.MicrosoftExample
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             // Create container
             var serviceCollection = new ServiceCollection();

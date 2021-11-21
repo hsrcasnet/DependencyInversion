@@ -15,7 +15,7 @@ namespace SwitchLibrary
         {
             while (true)
             {
-                @switch.Toggle();
+                this.@switch.Toggle();
                 System.Console.ReadKey();
             }
         }
